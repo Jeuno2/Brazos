@@ -1,0 +1,84 @@
+.hero-outer-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/public/Brazos/starbucks1.jpg);
+  background-position: 50%;
+  padding: 1rem;
+  font-size: var(--size-sm);
+  gap: 1rem;
+}
+
+.hero-inner-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-around;
+  gap: 2rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.hero-card {
+  border: 1px solid var(--clr-steelblue);
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* xs - small tablets */
+/* @media (min-width: 475px) {
+} */
+
+/* sm - medium tablets */
+/* @media (min-width: 640px) {
+} */
+
+/* md - large tablets */
+/* @media (min-width: 768px) {
+} */
+
+/* lg - laptops */
+@media (min-width: 1024px) {
+  .hero-outer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    font-size: var(--size-lg);
+  }
+
+  .hero-inner-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .hero-card {
+    padding: 2rem;
+    /* border-radius: 1rem; */
+  }
+}
+
+/* xl - desktop monitor */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl - 2k monitors and up, 4k monitors/tvs */
+@media (min-width: 1536px) {
+}

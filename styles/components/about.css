@@ -1,0 +1,76 @@
+.about-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about-flex-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-flex-inner > h2 {
+  color: var(--clr-steelblue);
+}
+
+.about-card {
+  /* margin: 1rem; */
+}
+
+#brazos {
+  /* border-radius: 1.5rem; */
+  /* padding: 1rem; */
+  /* margin-top: 1rem; */
+  object-fit: cover;
+  border: 1px solid var(--clr-steelblue);
+  box-shadow: 0 0 25px var(--clr-steelblue);
+}
+
+.para {
+  border: 1px solid var(--clr-steelblue);
+  box-shadow: 0 0 25px var(--clr-steelblue);
+  padding: 1rem;
+}
+
+#about {
+  margin-bottom: 2rem;
+}
+
+/* xs - small tablets */
+/* @media (min-width: 475px) {
+} */
+
+/* sm - medium tablets */
+/* @media (min-width: 640px) {
+} */
+
+/* md - large tablets */
+/* @media (min-width: 768px) {
+} */
+
+/* lg - laptops */
+@media (min-width: 1024px) {
+  .about-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    background-position: center;
+    font-size: var(--size-xl);
+    padding: 2rem;
+  }
+
+  .about-card {
+    /* padding: 1rem; */
+    margin-left: 1rem;
+  }
+}
+
+/* xl - desktop monitor */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl - 2k monitors and up, 4k monitors/tvs */
+/* @media (min-width: 1536px) {
+} */

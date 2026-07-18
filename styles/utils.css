@@ -1,0 +1,88 @@
+/* xs - small tablets */
+/* @media (min-width: 475px) {
+} */
+
+/* sm - medium tablets  */
+/* @media (min-width: 640px) {
+} */
+
+/* md - large tablets */
+/* @media (min-width: 768px) {
+} */
+
+/* lg - laptops */
+/* @media (min-width: 1024px) {
+} */
+
+/* xl - desktop monitor */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl - 2k monitors and up, 4k monitors/tvs */
+/* @media (min-width: 1536px) {
+} */
+
+.light-mode {
+  /* colors inverted to create light mode */
+  --clr-steelblue: #0071ce;
+  --clr-light: #000;
+  --clr-dark: #f5f5f5;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.section {
+  margin-top: 5rem;
+}
+
+/* xs - small tablets */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm - medium tablets */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md - large tablets */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg - laptops */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .section {
+    margin-top: 10rem;
+  }
+}
+
+/* xl - desktop monitor */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl - 2k monitors and up, 4k monitors/tvs */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}

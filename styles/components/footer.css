@@ -1,0 +1,91 @@
+.outer-footer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: var(--size-sm);
+}
+
+.inner-footer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.icon-footer-flex {
+  display: flex;
+  justify-content: left;
+  gap: 0.5rem;
+}
+
+.footer-svg {
+  width: var(--size-2xl);
+  height: var(--size-2xl);
+  list-style-type: none;
+}
+
+.footer_blue:hover {
+  color: var(--clr-steelblue);
+}
+
+/* xs - small tablets */
+@media (min-width: 475px) {
+  .outer-footer-flex {
+    font-size: var(--size-base);
+  }
+
+  .icon-footer-flex {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+/* sm - medium tablets */
+/* @media (min-width: 640px) {
+} */
+
+/* md - large tablets */
+/* @media (min-width: 768px) {
+} */
+
+/* lg - laptops */
+@media (min-width: 1024px) {
+  .outer-footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .inner-footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    list-style-type: none;
+  }
+
+  .footer-svg {
+    width: var(--size-3xl);
+    height: var(--size-3xl);
+    list-style-type: none;
+  }
+
+  .footer-svg:hover {
+    color: var(--clr-steelblue);
+  }
+}
+
+/* xl - desktop monitor */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl - 2k monitors and up, 4k monitors/tvs */
+/* @media (min-width: 1536px) {
+} */
