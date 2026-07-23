@@ -75,6 +75,13 @@
   display: block;
 }
 
+.anchor-point {
+  display: block;
+  position: relative;
+  top: -250px; /* Adjust this value based on your header height */
+  visibility: hidden;
+}
+
 /* xs - small tablets */
 /* @media (min-width: 475px) {
 } */

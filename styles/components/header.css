@@ -49,12 +49,12 @@
   .header__link {
     font-size: var(--size-sm);
     font-weight: 600;
-    color: var(--clr-light);
     letter-spacing: -0.05em;
+    transition: color 0.3s;
   }
 
   .header__link:hover {
-    color: var(--clr-steelblue);
+    /* color: var(--clr-steelblue); */
     cursor: pointer;
   }
 

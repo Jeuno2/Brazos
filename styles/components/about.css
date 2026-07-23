@@ -33,6 +33,13 @@
   padding: 1rem;
 }
 
+.anchor-point {
+  display: block;
+  position: relative;
+  top: -200px; /* Adjust this value based on your header height */
+  visibility: hidden;
+}
+
 #about {
   margin-bottom: 2rem;
 }

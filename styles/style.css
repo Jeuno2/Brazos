@@ -73,6 +73,7 @@ button {
 
 a {
   color: var(--clr-light);
+  transition: color 0.3s;
 }
 
 a:hover {
